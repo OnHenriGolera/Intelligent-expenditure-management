@@ -1,0 +1,200 @@
+{
+    "pastas": {
+        "price": 1.24,
+        "for": 1000,
+        "unit":"g",
+        "duration":60
+    },
+    "cream": {
+        "price": 1.66,
+        "for": 3,
+        "unit":"u",
+        "duration":7
+    },
+    "bacon": {
+        "price": 2.27,
+        "for": 2,
+        "unit":"u",
+        "duration":14
+    },
+    "coconut_milk": {
+        "price": 0.76,
+        "for": 1,
+        "unit":"u",
+        "duration":14
+    },
+    "ham_cheese_escalope": {
+        "price": 5.39,
+        "for": 10,
+        "unit":"u",
+        "duration":60
+    },
+    "steak": {
+        "price": 2.75,
+        "for": 2,
+        "unit":"u",
+        "duration":4
+    },
+    "pizza": {
+        "price": 1.94,
+        "for": 1,
+        "unit":"u",
+        "duration":60
+    },
+    "rice": {
+        "price": 1.62,
+        "for": 1000,
+        "unit":"g",
+        "duration":60
+    },
+    "egg": {
+        "price": 1.65,
+        "for": 6,
+        "unit":"u",
+        "duration":7
+    },
+    "tomato_cream": {
+        "price": 0.98,
+        "for": 3,
+        "unit":"u",
+        "duration":14
+    },
+    "onion": {
+        "price": 0.99,
+        "for": 10,
+        "unit":"u",
+        "duration":14
+    },
+    "shallot": {
+        "price": 1.99,
+        "for": 20,
+        "unit":"u",
+        "duration":14
+    },
+    "white_wine": {
+        "price": 6.66,
+        "for": 0.75,
+        "unit":"L",
+        "duration":14
+    },
+    "cheese": {
+        "price": 6.09,
+        "for": 1000,
+        "unit":"g",
+        "duration":14
+    },
+    "couscous": {
+        "price": 1.72,
+        "for": 1000,
+        "unit":"g",
+        "duration":60
+    },
+    "francfort": {
+        "price": 1.86,
+        "for": 4,
+        "unit":"u",
+        "duration": 7
+    },
+    "knacki": {
+        "price":1.98,
+        "for": 6,
+        "unit":"u",
+        "duration": 7
+    },
+    "puff_pastry": {
+        "price": 0.62,
+        "for": 1,
+        "unit":"u",
+        "duration": 4
+    },
+    "chicken": {
+        "price": 3.40,
+        "for": 2,
+        "unit":"u",
+        "duration": 4
+    },
+    "cake_chocolate": {
+        "price": 1.85,
+        "for": 205,
+        "unit":"g",
+        "duration": 14
+    },
+    "sugar": {
+        "price": 0.89,
+        "for": 1000,
+        "unit":"g",
+        "duration": 60
+    },
+    "butter": {
+        "price": 1.75,
+        "for": 250,
+        "unit":"g",
+        "duration": 14
+    },
+    "flour": {
+        "price": 0.59,
+        "for": 1000,
+        "unit":"g",
+        "duration": 60
+    },
+    "vanilla_sugar": {
+        "price": 0.65,
+        "for": 10,
+        "unit":"u",
+        "duration": 60
+    },
+    "milk": {
+        "price": 0.82,
+        "for": 1,
+        "unit": "L",
+        "duration": 14
+    },
+    "fresh_cream": {
+        "price": 1.43,
+        "for": 450,
+        "unit": "g",
+        "duration": 7
+    },
+    "ham": {
+        "price": 1.99,
+        "for": 4,
+        "unit": "u",
+        "duration": 7
+    },
+    "pizza_pastry": {
+        "price": 1.60,
+        "for": 1,
+        "unit": "u",
+        "duration": 4
+    },
+    "meatball": {
+        "price": 3.25,
+        "for": 12,
+        "unit": "u",
+        "duration": 7
+    },
+    "potato": {
+        "price": 1.99,
+        "for": 2000,
+        "unit": "g",
+        "duration": 14
+    },
+    "roblochon": {
+        "price": 5.28,
+        "for": 450,
+        "unit": "g",
+        "duration": 7
+    },
+    "petits_pois": {
+        "price": 1.25,
+        "for": 600,
+        "unit": "g",
+        "duration": 60
+    },
+    "fries": {
+        "price": 0.99,
+        "for": 1000,
+        "unit": "g",
+        "duration": 60
+    }
+}
