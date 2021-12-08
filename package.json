@@ -1,0 +1,12 @@
+{
+  "name": "depense",
+  "version": "1.0.0",
+  "description": "Calculate how student can spend money on food",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "author": "",
+  "license": "ISC"
+}
