@@ -1,0 +1,79 @@
+{
+    "carbonara": {
+        "pastas": 100,
+        "bacon": 1,
+        "cream": 1,
+        "comments": "It takes also thym, salt etc... But nothing else expensive.",
+        "for": 1
+    },
+    "curry_coco_chicken": {
+        "rice": 200,
+        "chicken": 1,
+        "coco_milk": 1,
+        "comments": "It uses curry. You can make your own, or play with flavours.",
+        "for": 2
+    },
+    "white_wine_risotto": {
+        "mushroom": 1,
+        "white_wine": 0.20,
+        "garlic": 0.1,
+        "onion": 1,
+        "rice": 200,
+        "comments": "Take also olive oil, parmesan, bouillon.",
+        "for": 2
+    },
+    "puree": {
+        "potato": 230,
+        "butter": 30,
+        "milk": 0.40,
+        "comments": "You can add cheese, and adjust the milk.",
+        "for": 1
+    },
+    "pasta_gratin": {
+        "pasta": 200,
+        "cream": 1,
+        "bacon": 1,
+        "cheese": 100,
+        "comments": "As always, you can add flovours.",
+        "for": 2
+    },
+    "homemade_pizza": {
+        "pizza_pastry": 1,
+        "tomato_cream": 1,
+        "ham": 2,
+        "cheese": 100,
+        "mushroom": 1,
+        "comments": "This is a base 'Royal' homemade pizza, improve it ;)",
+        "for": 2
+    },
+    "pizza": {
+        "pizza": 1,
+        "for": 1,
+        "comments": "Not the healthiest, but cheap."
+    },
+    "chicken_pie": {
+        "puff_pastry": 2,
+        "chicken": 2,
+        "cream": 1,
+        "white_wine": 0.1,
+        "mushroom": 1,
+        "shallot": 2,
+        "comments": "Its a good recipe, 'love it :)",
+        "for": 4
+    },
+    "bolognese": {
+        "pastas": 100,
+        "meatball": 4,
+        "tomato_cream": 1,
+        "mushroom": 1,
+        "comments": "As always, you can add flovours.",
+        "for": 1
+    },
+    "tartiflette": {
+        "bacon": 1,
+        "roblochon": 0.5,
+        "garlic": 0.1,
+        "potato": 500,
+        "onion": 1
+    }
+}

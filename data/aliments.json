@@ -181,8 +181,8 @@
     },
     "roblochon": {
         "price": 5.28,
-        "for": 450,
-        "unit": "g",
+        "for": 1,
+        "unit": "u",
         "duration": 7
     },
     "petits_pois": {
@@ -195,6 +195,18 @@
         "price": 0.99,
         "for": 1000,
         "unit": "g",
+        "duration": 60
+    },
+    "mushroom": {
+        "price": 1.60,
+        "for": 3,
+        "unit": "u",
+        "duration": 60
+    },
+    "garlic": {
+        "price": 1.99,
+        "for": 5,
+        "unit": "u",
         "duration": 60
     }
 }
