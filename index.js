@@ -4,9 +4,33 @@ const times_per_week = 8
 const config_food = require("./data/aliments.json")
 const config_recipe = require("./data/recipes.json")
 
-console.log(getPriceOfRecipe(config_recipe.tartiflette, false, true))
+getRecipeIngredients(config_recipe.white_wine_risotto, true)
 
-function getPriceOfRecipe(recipe, perPerson=false, show=false){
+function getRecipeIngredients(recipe, show=false){
+
+    var data = {}
+
+    for (ingredient in recipe){
+
+        if (!["for","comments"].includes(ingredient)){
+
+            var ingredient_unit = config_food[ingredient].unit
+
+            data[ingredient] = recipe[ingredient]+" "+ingredient_unit
+
+        }
+
+    }
+
+    if (show == true){
+        console.table(data)
+    }
+
+    return data
+
+}
+
+function getRecipePrice(recipe, perPerson=false, show=false){
     var price = 0
     
     for (var key in recipe){
