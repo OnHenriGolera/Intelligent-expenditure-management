@@ -74,6 +74,22 @@
         "roblochon": 0.5,
         "garlic": 0.1,
         "potato": 500,
-        "onion": 1
+        "onion": 1,
+        "for": 2,
+        "comments": "One of the best french food :D"
+    },
+    "cantonese_rice": {
+        "rice": 100,
+        "onion": 1,
+        "egg": 1,
+        "ham": 2,
+        "petits_pois": 30,
+        "for": 2,
+        "comments": "False cantonese rice, but good one"
+    },
+    "sauteed_noodles": {
+        "noodles": 125,
+        "onion": 1,
+        "mushrooms": 1
     }
 }
