@@ -1,1 +1,4 @@
 data/idee.txt
+*.save
+node_modules
+package-lock.json
