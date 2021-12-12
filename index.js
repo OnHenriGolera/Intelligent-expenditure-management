@@ -3,7 +3,48 @@ const times_per_week = 8
 
 const config_food = require("./data/aliments.json")
 const config_recipe = require("./data/recipes.json")
+var container = [
+    {"name":"pastas", "date":300, "number":100},
+    {"name":"onion", "date":335, "number":3}
+]
 
+showTimeLine(container)
+
+function showTimeLine(container){
+
+    var today = new Date()
+
+    var month_number = [0,31,59,90,120,151,181,212,243,274,304,334]
+
+    var day_number = month_number[today.getMonth()] + today.getDate()
+
+    for (el in container){
+
+        var aliment = container[el]
+
+        var remaining_duration = aliment.date + config_food[aliment.name].duration - day_number
+
+        out = `${aliment.name}\t\t[${aliment.number}] \t\t: `
+
+        for (var i=0;i<remaining_duration;i++){
+
+            if (i>20){
+                break
+            }
+
+            if ((i+1)%5==0){
+                out+=(i+1)+" "
+            }else{
+                out+="- "
+            }
+
+        }
+
+        console.log(out)
+
+    }
+
+}
 
 function getRecipeIngredients(recipe, show=false){
 
