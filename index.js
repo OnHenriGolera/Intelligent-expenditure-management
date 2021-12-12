@@ -6,16 +6,59 @@ const config_recipe = require("./data/recipes.json")
 
 const tag_blacklist = ["for","comments","note"]
 
-var container_zip = ["pastas","onion", "cream", "bacon"]
+var container_zip = ["pastas","onion", "cream", "bacon", "bread", "francfort", "ham", "egg"]
 var container_raw = {
     "pastas": {"date":300, "number":100},
     "onion":  {"date":345, "number":3},
     "cream": {"date":345, "number":3},
-    "bacon": {"date":346,"number":3}
+    "bacon": {"date":346, "number":3},
+    "francfort": {"date":346, "number":3},
+    "ham": {"date":346, "number":5},
+    "bread": {"date":346, "number":5},
+    "egg": {"date":346, "number":3}
 }
 
+console.log(listFeasibleRecipe(container_zip, container_raw))
 
-console.log(isRecipeFeasible(config_recipe.white_wine_risotto, container_zip, container_raw))
+function listFeasibleRecipe(container_zip, container_raw, seuil_percentage=0.3, seuil_value=1){
+
+    var out = {}
+
+    for (recipe in config_recipe){
+
+        var recipePrice = getRecipePrice(config_recipe[recipe])
+
+        var test = isRecipeFeasible(config_recipe[recipe], container_zip, container_raw)
+        
+        if (test.feasible == true){
+
+            out[recipe] = {"sup":0, "supList":[], "realPrice":recipePrice}
+        
+        }else{
+
+            var sum_ingredients = 0
+            for (lack in test.lack){
+
+                var number = Math.ceil( test.lack[lack] / config_food[lack].for )
+                sum_ingredients += config_food[lack].price * number
+
+            }
+
+            if (sum_ingredients < seuil_value || sum_ingredients < seuil_percentage * recipePrice){
+
+                out[recipe] = {"sup":sum_ingredients, "supList":test.lack, "realPrice":recipePrice+sum_ingredients}
+
+            }
+
+        }
+
+        
+
+    }
+
+    return out
+
+}
 
 
 function isRecipeFeasible(recipe, container_zip, container_raw){
@@ -36,6 +79,7 @@ function isRecipeFeasible(recipe, container_zip, container_raw){
                 if (container_raw[aliment].number < recipe[aliment]){
 
                     out.lack[aliment] = recipe[aliment] - container_raw[aliment].number
+                    out.feasible = false
                     
                 }
 
@@ -130,7 +174,6 @@ function getRecipePrice(recipe, perPerson=false, show=false){
     for (var key in recipe){
 
         var data = {}
-
         if (!tag_blacklist.includes(key)){
             var aliment_price = config_food[key].price
             var aliment_price_for = config_food[key].for
