@@ -4,7 +4,6 @@ const times_per_week = 8
 const config_food = require("./data/aliments.json")
 const config_recipe = require("./data/recipes.json")
 
-getRecipeIngredients(config_recipe.white_wine_risotto, true)
 
 function getRecipeIngredients(recipe, show=false){
 
