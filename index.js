@@ -3,12 +3,66 @@ const times_per_week = 8
 
 const config_food = require("./data/aliments.json")
 const config_recipe = require("./data/recipes.json")
-var container = [
-    {"name":"pastas", "date":300, "number":100},
-    {"name":"onion", "date":335, "number":3}
-]
 
-showTimeLine(container)
+const tag_blacklist = ["for","comments","note"]
+
+var container_zip = ["pastas","onion", "cream", "bacon"]
+var container_raw = {
+    "pastas": {"date":300, "number":100},
+    "onion":  {"date":345, "number":3},
+    "cream": {"date":345, "number":3},
+    "bacon": {"date":346,"number":3}
+}
+
+
+console.log(isRecipeFeasible(config_recipe.white_wine_risotto, container_zip, container_raw))
+
+
+function isRecipeFeasible(recipe, container_zip, container_raw){
+
+    var out = {"feasible":true, "lack": [], "time_remaining": 100}
+
+    for (aliment in recipe){
+
+        if (!tag_blacklist.includes(aliment)){
+
+            if (!container_zip.includes(aliment)){
+                
+                out.lack[aliment] = recipe[aliment]
+                out.feasible = false
+
+            }else{
+
+                if (container_raw[aliment].number < recipe[aliment]){
+
+                    out.lack[aliment] = recipe[aliment] - container_raw[aliment].number
+                    
+                }
+
+                var today = new Date()
+
+                var month_number = [0,31,59,90,120,151,181,212,243,274,304,334]
+
+                var day_number = month_number[today.getMonth()] + today.getDate()
+
+                var remaining_duration = container_raw[aliment].date + config_food[aliment].duration - day_number
+                
+                if (out.time_remaining > remaining_duration){
+
+                    out.time_remaining = remaining_duration
+
+                }
+
+            }
+
+        }
+
+
+    }
+
+    return out
+
+}
 
 function showTimeLine(container){
 
@@ -22,9 +76,9 @@ function showTimeLine(container){
 
         var aliment = container[el]
 
-        var remaining_duration = aliment.date + config_food[aliment.name].duration - day_number
+        var remaining_duration = - day_number + aliment.date + config_food[el].duration
 
-        out = `${aliment.name}\t\t[${aliment.number}] \t\t: `
+        out = `${el}\t\t[${aliment.number}] \t\t: `
 
         for (var i=0;i<remaining_duration;i++){
 
@@ -52,7 +106,7 @@ function getRecipeIngredients(recipe, show=false){
 
     for (ingredient in recipe){
 
-        if (!["for","comments"].includes(ingredient)){
+        if (!tag_blacklist.includes(ingredient)){
 
             var ingredient_unit = config_food[ingredient].unit
 
@@ -77,7 +131,7 @@ function getRecipePrice(recipe, perPerson=false, show=false){
 
         var data = {}
 
-        if (!["comments", "for"].includes(key)){
+        if (!tag_blacklist.includes(key)){
             var aliment_price = config_food[key].price
             var aliment_price_for = config_food[key].for
             var recipe_aliment_quantity = recipe[key]
