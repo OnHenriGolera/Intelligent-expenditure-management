@@ -2,3 +2,4 @@ data/idee.txt
 *.save
 node_modules
 package-lock.json
+.DS_Store
