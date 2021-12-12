@@ -3,14 +3,14 @@
         "pastas": 100,
         "bacon": 1,
         "cream": 1,
-        "comments": "It takes also thym, salt etc... But nothing else expensive.",
+        "comments": "",
         "for": 1
     },
     "curry_coco_chicken": {
         "rice": 200,
         "chicken": 1,
-        "coco_milk": 1,
-        "comments": "It uses curry. You can make your own, or play with flavours.",
+        "coconut_milk": 1,
+        "comments": "",
         "for": 2
     },
     "white_wine_risotto": {
@@ -19,22 +19,15 @@
         "garlic": 0.1,
         "onion": 1,
         "rice": 200,
-        "comments": "Take also olive oil, parmesan, bouillon.",
+        "comments": "",
         "for": 2
-    },
-    "puree": {
-        "potato": 230,
-        "butter": 30,
-        "milk": 0.40,
-        "comments": "You can add cheese, and adjust the milk.",
-        "for": 1
     },
     "pasta_gratin": {
         "pasta": 200,
         "cream": 1,
         "bacon": 1,
         "cheese": 100,
-        "comments": "As always, you can add flovours.",
+        "comments": "",
         "for": 2
     },
     "homemade_pizza": {
@@ -43,13 +36,119 @@
         "ham": 2,
         "cheese": 100,
         "mushroom": 1,
-        "comments": "This is a base 'Royal' homemade pizza, improve it ;)",
+        "comments": "",
         "for": 2
+    },
+    "bolognese": {
+        "pastas": 100,
+        "meatball": 4,
+        "tomato_cream": 1,
+        "mushroom": 1,
+        "comments": "",
+        "for": 1
+    },
+    "hamburger": {
+        "steak": 1,
+        "bread": 2,
+        "onion": 0.5,
+        "comments": "",
+        "for": 1
+    },
+    "chili_con_carne": {
+        "red_beans": 1,
+        "steak": 1,
+        "rice": 200,
+        "comments": "incomplete",
+        "for": ""
+    },
+    "leek_quiche": {
+        "leek": 250,
+        "puff_pastry": 1,
+        "milk": 0.20,
+        "fresh_cream": 0.25,
+        "egg": 4,
+        "comments": "",
+        "for": 6
+    },
+    "leek_soup": {
+        "leek": 150,
+        "potato": 350,
+        "onion": 1,
+        "comments": "",
+        "for": 1
+    },
+    "flamenkuche": {
+        "puff_pastry": 1,
+        "fresh_cream": 0.15,
+        "bacon": 1,
+        "onion": 1,
+        "comments": "",
+        "for": 4
+    },
+    "boiled_egg": {
+        "egg": 2,
+        "bread": 5,
+        "comments": "",
+        "for": 1
+    },
+    "fried_egg": {
+        "egg": 2,
+        "bread": 2,
+        "comments": "",
+        "for": 1
+    },
+    "omelette": {
+        "egg": 4,
+        "mushroom": 1,
+        "comments": "",
+        "for": 1
+    },
+    "scrambled_egg": {
+        "egg": 3,
+        "comments": "",
+        "for": 1
+    },
+    "english_breakfast": {
+        "egg": 2,
+        "bread": 2,
+        "francfort": 1,
+        "ham": 1,
+        "red_beans": 1,
+        "comments": "",
+        "for": 1
+    },
+
+
+
+
+    "chicken_cream": {
+        "chicken": 1,
+        "cream": 1,
+        "mushroom": 1,
+        "comments": "",
+        "for": ""
+    },
+    "wrap": {
+        "wrap": 1,
+        "ham": 1
+    },
+    "fajitas": {
+        "wrap": 1,
+        "chicken": 1,
+        "comments": "",
+        "for": ""
+    },
+    "puree": {
+        "potato": 230,
+        "butter": 30,
+        "milk": 0.40,
+        "comments": "",
+        "for": 1
     },
     "pizza": {
         "pizza": 1,
         "for": 1,
-        "comments": "Not the healthiest, but cheap."
+        "comments": ""
     },
     "chicken_pie": {
         "puff_pastry": 2,
@@ -58,16 +157,8 @@
         "white_wine": 0.1,
         "mushroom": 1,
         "shallot": 2,
-        "comments": "Its a good recipe, 'love it :)",
+        "comments": "",
         "for": 4
-    },
-    "bolognese": {
-        "pastas": 100,
-        "meatball": 4,
-        "tomato_cream": 1,
-        "mushroom": 1,
-        "comments": "As always, you can add flovours.",
-        "for": 1
     },
     "tartiflette": {
         "bacon": 1,
@@ -76,7 +167,7 @@
         "potato": 500,
         "onion": 1,
         "for": 2,
-        "comments": "One of the best french food :D"
+        "comments": ""
     },
     "cantonese_rice": {
         "rice": 100,
@@ -85,11 +176,6 @@
         "ham": 2,
         "petits_pois": 30,
         "for": 2,
-        "comments": "False cantonese rice, but good one"
-    },
-    "sauteed_noodles": {
-        "noodles": 125,
-        "onion": 1,
-        "mushrooms": 1
+        "comments": ""
     }
 }
