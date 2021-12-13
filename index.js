@@ -51,9 +51,7 @@ function listFeasibleRecipe(container_zip, container_raw, seuil_percentage=0.3, 
             }
 
         }
-
         
-
     }
 
     return out
@@ -100,7 +98,6 @@ function isRecipeFeasible(recipe, container_zip, container_raw){
             }
 
         }
-
 
     }
 
