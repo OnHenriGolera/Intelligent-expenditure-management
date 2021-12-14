@@ -1,284 +1,438 @@
 {
     "pastas": {
-        "price": 1.24,
+        "price": 1.29,
         "for": 1000,
         "unit": "g",
-        "duration": 60
+        "duration": 730,
+        "brand": "Turini",
+        "quality": "A",
+        "name": "Torsades"
     },
     "cream": {
         "price": 1.66,
         "for": 3,
         "unit": "u",
-        "duration": 7
+        "duration": 180,
+        "brand": "Bridélice",
+        "quality": "?",
+        "name": "Crème légère semi-épaisse"
     },
     "bacon": {
-        "price": 2.27,
+        "price": 1.76,
         "for": 2,
         "unit": "u",
-        "duration": 14
+        "duration": 14,
+        "brand": "Herta",
+        "quality": "C",
+        "name": "Lardons fumés sans nitrite"
     },
     "coconut_milk": {
-        "price": 0.76,
+        "price": 1.03,
         "for": 1,
         "unit": "u",
-        "duration": 14
+        "duration": 270,
+        "brand": "Suzi Wan",
+        "quality": "?",
+        "name": "Lait coco"
     },
+
+    
     "ham_cheese_escalope": {
         "price": 5.39,
         "for": 10,
         "unit": "u",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
+
+
     "steak": {
-        "price": 2.75,
+        "price": 2.98,
         "for": 2,
         "unit": "u",
-        "duration": 4
+        "duration": 5,
+        "brand": "Ferial",
+        "quality": "A",
+        "name": "Steak haché"
     },
     "pizza": {
-        "price": 1.94,
+        "price": 1.66,
         "for": 1,
         "unit": "u",
-        "duration": 60
+        "duration": 7,
+        "brand": "Turini",
+        "quality": "C",
+        "name": "Pizza Jambon-Fromage"
     },
     "rice": {
         "price": 1.62,
         "for": 1000,
         "unit": "g",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "egg": {
         "price": 1.65,
         "for": 6,
         "unit": "u",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "tomato_cream": {
         "price": 0.98,
         "for": 3,
         "unit": "u",
-        "duration": 14
+        "duration": 365,
+        "brand": "Turini",
+        "quality": "A",
+        "name": "Coulis Tomate"
     },
     "onion": {
         "price": 0.99,
         "for": 10,
         "unit": "u",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "shallot": {
         "price": 1.99,
         "for": 20,
         "unit": "u",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "white_wine": {
         "price": 6.66,
         "for": 0.75,
         "unit": "L",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "cheese": {
         "price": 6.09,
         "for": 1000,
         "unit": "g",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "couscous": {
         "price": 1.72,
         "for": 1000,
         "unit": "g",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "francfort": {
         "price": 1.86,
         "for": 4,
         "unit": "u",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "knacki": {
         "price": 1.98,
         "for": 6,
         "unit": "u",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "puff_pastry": {
         "price": 0.62,
         "for": 1,
         "unit": "u",
-        "duration": 4
+        "duration": 4,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "chicken": {
         "price": 3.4,
         "for": 2,
         "unit": "u",
-        "duration": 4
+        "duration": 4,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "cake_chocolate": {
         "price": 1.85,
         "for": 205,
         "unit": "g",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "sugar": {
         "price": 0.89,
         "for": 1000,
         "unit": "g",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "butter": {
         "price": 1.75,
         "for": 250,
         "unit": "g",
-        "duration": 14
+        "duration": 14,
+        "brand": "Croisés",
+        "quality": "?",
+        "name": "30"
     },
     "flour": {
         "price": 0.59,
         "for": 1000,
         "unit": "g",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "vanilla_sugar": {
         "price": 0.65,
         "for": 10,
         "unit": "u",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "milk": {
         "price": 0.82,
         "for": 1,
         "unit": "L",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "fresh_cream": {
         "price": 1.43,
         "for": 450,
         "unit": "g",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "ham": {
         "price": 1.99,
         "for": 4,
         "unit": "u",
-        "duration": 7
+        "duration": 14,
+        "brand": "Tradilege",
+        "quality": "C",
+        "name": "Jambon supérieur cuit à l'éttoufé"
     },
     "pizza_pastry": {
         "price": 1.6,
         "for": 1,
         "unit": "u",
-        "duration": 4
+        "duration": 4,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "meatball": {
         "price": 3.25,
         "for": 12,
         "unit": "u",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "potato": {
         "price": 1.99,
         "for": 2000,
         "unit": "g",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "roblochon": {
         "price": 5.28,
         "for": 1,
         "unit": "u",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "petits_pois": {
         "price": 1.25,
         "for": 600,
         "unit": "g",
-        "duration": 60
+        "duration": 1095,
+        "brand": "Notre Jardin",
+        "quality": "A",
+        "name": "Petits Pois nature"
     },
     "fries": {
-        "price": 0.99,
+        "price": 0.75,
         "for": 1000,
         "unit": "g",
-        "duration": 60
+        "duration": 1095,
+        "brand": "Pomlisse",
+        "quality": "A",
+        "name": "Frites au four"
     },
     "mushroom": {
         "price": 1.6,
         "for": 3,
         "unit": "u",
-        "duration": 60
+        "duration": 1095,
+        "brand": "Notre Jardin",
+        "quality": "A",
+        "name": "Champignons de paris"
     },
     "garlic": {
         "price": 1.99,
         "for": 5,
         "unit": "u",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "noodles": {
         "price": 1.36,
         "for": 250,
         "unit": "g",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "carrot": {
         "price": 0.79,
         "for": 12,
         "unit": "u",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "bread": {
-        "price": 1.4,
+        "price": 1.09,
         "for": 15,
         "unit": "u",
-        "duration": 14
+        "duration": 14,
+        "brand": "Épidor",
+        "quality": "A",
+        "name": "Pain demi complet"
     },
     "wrap": {
         "price": 2.04,
         "for": 6,
         "unit": "u",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "red_beans": {
         "price": 0.55,
-        "for": 250,
+        "for": 400,
         "unit": "g",
-        "duration": 60
+        "duration": 1095,
+        "brand": "Notre Jardin",
+        "quality": "A",
+        "name": "Haricots rouges"
     },
     "leek": {
         "price": 2.6,
         "for": 500,
         "unit": "g",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "breaded_fish": {
         "price": 2.24,
         "for": 8,
         "unit": "u",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "fresh_pastas": {
-        "price": 1.12,
+        "price": 0.92,
         "for": 350,
         "unit": "g",
-        "duration": 14
+        "duration": 14,
+        "brand": "Turini",
+        "quality": "A",
+        "name": "Tagliatelles fraîches aux oeufs frais"
     },
     "white_beans": {
         "price": 0.75,
         "for": 530,
         "unit": "g",
-        "duration": 60
+        "duration": 60,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "olives": {
         "price": 0.87,
         "for": 160,
         "unit": "g",
-        "duration": 14
+        "duration": 14,
+        "brand": "",
+        "quality": "",
+        "name": ""
     },
     "chickpeas": {
         "price": 0.49,
-        "for": 265,
+        "for": 400,
         "unit": "g",
-        "duration": 60
+        "duration": 1095,
+        "brand": "Notre Jardin",
+        "quality": "A",
+        "name": "Pois chiches"
     },
     "buckwheat_pancake": {
         "price": 1.99,
         "for": 6,
         "unit": "u",
-        "duration": 7
+        "duration": 7,
+        "brand": "",
+        "quality": "",
+        "name": ""
+    },
+    "pesto_verde": {
+        "price": 1.06,
+        "for": 185,
+        "unit": "g",
+        "duration": 730,
+        "brand": "Turini",
+        "quality": "C",
+        "name": "Pesto Verde"
     }
 }

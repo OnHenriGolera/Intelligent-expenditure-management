@@ -5,14 +5,16 @@
         "cream": 1,
         "onion": 1,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein,slow_burning_carbs"
     },
     "curry_coco_chicken": {
         "rice": 200,
         "chicken": 1,
         "coconut_milk": 1,
         "comments": "",
-        "for": 2
+        "for": 2,
+        "tag": "protein,slow_burning_carbs"
     },
     "white_wine_risotto": {
         "mushroom": 1,
@@ -21,7 +23,8 @@
         "onion": 1,
         "rice": 200,
         "comments": "",
-        "for": 2
+        "for": 2,
+        "tag": "slow_burning_carbs,vegetable1"
     },
     "pasta_gratin": {
         "pastas": 200,
@@ -29,7 +32,8 @@
         "bacon": 1,
         "cheese": 100,
         "comments": "",
-        "for": 2
+        "for": 2,
+        "tag": "slow_burning_carbs,lipid"
     },
     "homemade_pizza": {
         "pizza_pastry": 1,
@@ -38,7 +42,8 @@
         "cheese": 100,
         "mushroom": 1,
         "comments": "",
-        "for": 2
+        "for": 2,
+        "tag": "protein,slow_burning_carbs,vegetable1,lipid"
     },
     "bolognese": {
         "pastas": 100,
@@ -46,21 +51,24 @@
         "tomato_cream": 1,
         "mushroom": 1,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein,slow_burning_carbs,vegetable1,lipid"
     },
     "hamburger": {
         "steak": 1,
         "bread": 2,
         "onion": 0.5,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein,slow_burning_carbs,vegetable1,lipid,sugar"
     },
     "chili_con_carne": {
         "red_beans": 1,
         "steak": 1,
         "rice": 200,
         "comments": "incomplete",
-        "for": ""
+        "for": "",
+        "tag": "protein,slow_burning_carbs,vegetable1"
     },
     "leek_quiche": {
         "leek": 250,
@@ -69,14 +77,16 @@
         "fresh_cream": 0.25,
         "egg": 4,
         "comments": "",
-        "for": 6
+        "for": 6,
+        "tag": "protein,slow_burning_carbs,vegetable2,lipid"
     },
     "leek_soup": {
         "leek": 150,
         "potato": 350,
         "onion": 1,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "lipid,vegetable2"
     },
     "flamenkuche": {
         "puff_pastry": 1,
@@ -84,30 +94,35 @@
         "bacon": 1,
         "onion": 1,
         "comments": "",
-        "for": 4
+        "for": 4,
+        "tag": "protein,slow_burning_carbs,lipid"
     },
     "boiled_egg": {
         "egg": 2,
         "bread": 5,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein"
     },
     "fried_egg": {
         "egg": 2,
         "bread": 2,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein,lipid,slow_burning_carbs"
     },
     "omelette": {
         "egg": 4,
         "mushroom": 1,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein,lipid,vegetable1"
     },
     "scrambled_egg": {
         "egg": 3,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein,lipid"
     },
     "english_breakfast": {
         "egg": 2,
@@ -116,40 +131,48 @@
         "ham": 1,
         "red_beans": 1,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "protein,lipid,vegetable1,slow_burning_carbs"
     },
 
 
 
 
     "chicken_cream": {
+        "pastas":100,
         "chicken": 1,
         "cream": 1,
         "mushroom": 1,
         "comments": "",
-        "for": ""
+        "for": 1,
+        "tag": "protein,slow_burning_carbs,lipid"
     },
     "wrap": {
         "wrap": 1,
-        "ham": 1
+        "ham": 1,
+        "comments": "",
+        "for": 1,
+        "tag": "slow_burning_carbs,protein,vegetable2"
     },
     "fajitas": {
         "wrap": 1,
         "chicken": 1,
         "comments": "",
-        "for": ""
+        "for": 1,
+        "tag": "protein,slow_burning_carbs,lipid"
     },
     "puree": {
         "potato": 230,
         "butter": 30,
         "milk": 0.40,
         "comments": "",
-        "for": 1
+        "for": 1,
+        "tag": "slow_burning_carbs,lipid"
     },
     "pizza": {
         "pizza": 1,
         "for": 1,
-        "comments": ""
+        "comments": "slow_burning_carbs,lipid,protein"
     },
     "chicken_pie": {
         "puff_pastry": 2,
@@ -159,7 +182,8 @@
         "mushroom": 1,
         "shallot": 2,
         "comments": "",
-        "for": 4
+        "for": 4,
+        "tag": "protein,slow_burning_carbs,lipid"
     },
     "tartiflette": {
         "bacon": 1,
@@ -168,7 +192,8 @@
         "potato": 500,
         "onion": 1,
         "for": 2,
-        "comments": ""
+        "comments": "",
+        "tag": "protein,slow_burning_carbs,lipid"
     },
     "cantonese_rice": {
         "rice": 100,
@@ -177,6 +202,7 @@
         "ham": 2,
         "petits_pois": 30,
         "for": 2,
-        "comments": ""
+        "comments": "",
+        "tag": "slow_burning_carbs,protein,vegetable1"
     }
 }
