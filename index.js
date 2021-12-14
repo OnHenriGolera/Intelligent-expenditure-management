@@ -4,7 +4,7 @@ const times_per_week = 8
 const config_food = require("./data/aliments.json")
 const config_recipe = require("./data/recipes.json")
 
-const tag_blacklist = ["for","comments","note"]
+const tag_blacklist = ["for","comments","tag"]
 
 var container_zip = ["pastas","onion", "cream", "bacon", "bread", "francfort", "ham", "egg"]
 var container_raw = {
@@ -20,6 +20,19 @@ var container_raw = {
 
 console.log(listFeasibleRecipe(container_zip, container_raw))
 
+function timeRemainingBeforePeremption(aliment, date){
+    var today = new Date()
+
+    var month_number = [0,31,59,90,120,151,181,212,243,274,304,334]
+
+    var day_number = month_number[today.getMonth()] + today.getDate()
+
+    var remaining_duration = - day_number + date + config_food[aliment].duration
+
+    return remaining_duration
+
+}
+
 function listFeasibleRecipe(container_zip, container_raw, seuil_percentage=0.3, seuil_value=1){
 
     var out = {}
@@ -32,7 +45,7 @@ function listFeasibleRecipe(container_zip, container_raw, seuil_percentage=0.3, 
         
         if (test.feasible == true){
 
-            out[recipe] = {"sup":0, "supList":[], "realPrice":recipePrice}
+            out[recipe] = {"sup":0, "supList":[]}
         
         }else{
 
@@ -46,7 +59,7 @@ function listFeasibleRecipe(container_zip, container_raw, seuil_percentage=0.3, 
 
             if (sum_ingredients < seuil_value || sum_ingredients < seuil_percentage * recipePrice){
 
-                out[recipe] = {"sup":sum_ingredients, "supList":test.lack, "realPrice":recipePrice+sum_ingredients}
+                out[recipe] = {"sup":sum_ingredients, "supList":test.lack}
 
             }
 
@@ -81,13 +94,7 @@ function isRecipeFeasible(recipe, container_zip, container_raw){
                     
                 }
 
-                var today = new Date()
-
-                var month_number = [0,31,59,90,120,151,181,212,243,274,304,334]
-
-                var day_number = month_number[today.getMonth()] + today.getDate()
-
-                var remaining_duration = container_raw[aliment].date + config_food[aliment].duration - day_number
+                var remaining_duration = timeRemainingBeforePeremption(aliment, container_raw[aliment].date)
                 
                 if (out.time_remaining > remaining_duration){
 
@@ -107,17 +114,11 @@ function isRecipeFeasible(recipe, container_zip, container_raw){
 
 function showTimeLine(container){
 
-    var today = new Date()
-
-    var month_number = [0,31,59,90,120,151,181,212,243,274,304,334]
-
-    var day_number = month_number[today.getMonth()] + today.getDate()
-
     for (el in container){
 
         var aliment = container[el]
 
-        var remaining_duration = - day_number + aliment.date + config_food[el].duration
+        var remaining_duration = timeRemainingBeforePeremption(el, aliment.date)
 
         out = `${el}\t\t[${aliment.number}] \t\t: `
 
@@ -171,6 +172,7 @@ function getRecipePrice(recipe, perPerson=false, show=false){
     for (var key in recipe){
 
         var data = {}
+        
         if (!tag_blacklist.includes(key)){
             var aliment_price = config_food[key].price
             var aliment_price_for = config_food[key].for
