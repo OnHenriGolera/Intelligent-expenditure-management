@@ -76,13 +76,13 @@
         "name": ""
     },
     "egg": {
-        "price": 1.65,
+        "price": 1.63,
         "for": 6,
         "unit": "u",
-        "duration": 7,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 14,
+        "brand": "Mally",
+        "quality": "A",
+        "name": "Oeuf élevé en plein air clos"
     },
     "tomato_cream": {
         "price": 0.98,
@@ -104,30 +104,30 @@
     },
     "shallot": {
         "price": 1.99,
-        "for": 20,
+        "for": 25,
         "unit": "u",
         "duration": 14,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "brand": "Leclerc",
+        "quality": "?",
+        "name": "Échalottes Françaises"
     },
     "white_wine": {
-        "price": 6.66,
+        "price": 2.70,
         "for": 0.75,
         "unit": "L",
-        "duration": 14,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 150,
+        "brand": "Clément Bosquet",
+        "quality": "?",
+        "name": "Vin Blanc Clément Bosquet Bergerac"
     },
     "cheese": {
-        "price": 6.09,
-        "for": 1000,
+        "price": 3.5,
+        "for": 500,
         "unit": "g",
-        "duration": 14,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 90,
+        "brand": "Croisés",
+        "quality": "A",
+        "name": "Emmental Rappé"
     },
     "couscous": {
         "price": 1.72,
@@ -157,31 +157,31 @@
         "name": ""
     },
     "puff_pastry": {
-        "price": 0.62,
+        "price": 0.79,
         "for": 1,
         "unit": "u",
-        "duration": 4,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 14,
+        "brand": "Tablier Blanc",
+        "quality": "D",
+        "name": "Pâte Feuilletée"
     },
     "chicken": {
-        "price": 3.4,
+        "price": 3.42,
         "for": 2,
         "unit": "u",
-        "duration": 4,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 7,
+        "brand": "Gaulois",
+        "quality": "A",
+        "name": "Filet de poulet"
     },
     "cake_chocolate": {
-        "price": 1.85,
-        "for": 205,
+        "price": 0.82,
+        "for": 200,
         "unit": "g",
-        "duration": 14,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 300,
+        "brand": "Tablette d'or",
+        "quality": "E",
+        "name": "Chocolat Pâtissier"
     },
     "sugar": {
         "price": 0.89,
@@ -220,13 +220,13 @@
         "name": ""
     },
     "milk": {
-        "price": 0.82,
+        "price": 1.18,
         "for": 1,
         "unit": "L",
-        "duration": 14,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 150,
+        "brand": "Lactel",
+        "quality": "A",
+        "name": "Lait BIO demi écrémé"
     },
     "fresh_cream": {
         "price": 1.43,
@@ -274,13 +274,13 @@
         "name": ""
     },
     "roblochon": {
-        "price": 5.28,
+        "price": 5.10,
         "for": 1,
         "unit": "u",
-        "duration": 7,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 90,
+        "brand": "Nos régions ont du talent",
+        "quality": "D",
+        "name": "90"
     },
     "petits_pois": {
         "price": 1.25,
@@ -328,13 +328,13 @@
         "name": ""
     },
     "carrot": {
-        "price": 0.79,
-        "for": 12,
+        "price": 0.99,
+        "for": 500,
         "unit": "u",
-        "duration": 7,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 6,
+        "brand": "Leclerc",
+        "quality": "?",
+        "name": "Carrottes France"
     },
     "bread": {
         "price": 1.09,
@@ -346,13 +346,13 @@
         "name": "Pain demi complet"
     },
     "wrap": {
-        "price": 2.04,
+        "price": 2.05,
         "for": 6,
         "unit": "u",
-        "duration": 14,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "duration": 150,
+        "brand": "Epidor",
+        "quality": "B",
+        "name": "Wrap nature"
     },
     "red_beans": {
         "price": 0.55,
@@ -364,13 +364,13 @@
         "name": "Haricots rouges"
     },
     "leek": {
-        "price": 2.6,
-        "for": 500,
+        "price": 1.49,
+        "for": 1000,
         "unit": "g",
         "duration": 7,
-        "brand": "",
-        "quality": "",
-        "name": ""
+        "brand": "Leclerc",
+        "quality": "?",
+        "name": "Poireau Français"
     },
     "breaded_fish": {
         "price": 2.24,
